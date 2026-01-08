@@ -1,0 +1,9 @@
+$dir = "$HOME\Downloads\test"
+python "$HOME\Downloads\fall_prob_per_sec_softvote.py" `
+  --input  "$dir\01.mp4" `
+  --model1 "$dir\fall_cnn_gru.keras" `
+  --model2 "$dir\fall_cnn_lstm.keras" `
+  --outdir "$HOME\Downloads\fall_out" `
+  --track --unit-sec 1.0 `
+  --w1 0.5 --w2 0.5 `
+  --save-video --show
