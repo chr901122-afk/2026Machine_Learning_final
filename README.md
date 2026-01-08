@@ -37,3 +37,7 @@ See `data/README.md` for details.
 ## Disclaimer
 This repository is for academic and educational purposes only.
 The models are not intended for clinical deployment.
+
+## Note on Large Files
+This repository uses Git LFS to manage large datasets and model artifacts,
+as required by the course for full reproducibility of experiments.
