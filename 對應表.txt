@@ -1,0 +1,13 @@
+對應的人體部位表： | 欄位名稱 | 對應部位 | 在跌倒辨識中的作用 | | :--- | :--- | :--- | | kp0 | 鼻子 (Nose) | 監測頭部墜落速度的主要指標。 | | kp1 / kp2 | 左眼 / 右眼 | 輔助頭部位置判定。 | | kp3 / kp4 | 左耳 / 右耳 | 輔助頭部位置判定。 | | kp5 / kp6 | 左肩 / 右肩 | 肩膀的 Y 軸變化能反映上半身傾斜程度。 | | kp7 / kp8 | 左肘 / 右肘 | 手部動作。 | | kp9 / kp10 | 左手腕 / 右手腕 | 跌倒時常用手撐地。 | | kp11 / kp12| 左髖 / 右髖 (腰部) | 身體重心的核心參考點。 | | kp13 / kp14| 左膝 / 右膝 | 腿部彎曲狀態。 | | kp15 / kp16| 左腳踝 / 右腳踝 | 判斷腳部是否離開地面或位置大幅偏移。 |
+
+
+影片檔
+
+33個影片對應https://www.kaggle.com/datasets/tuyenldvn/falldataset-imvia?resource=download-directory&select=Office 
+
+OFFICE檔全部
+
+70個影片有混合
+
+HOME01~02的 "VIDEO 48"
+48後面接COFFEE_ROOM02的全部
